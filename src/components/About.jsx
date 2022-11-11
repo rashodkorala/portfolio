@@ -15,6 +15,15 @@ export const About = () => {
             also passionate about photography and love to create and edit
             photos.
           </p>
+          <a
+            href="https://photosbyrashod.myportfolio.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500">
+              Veiw Photos
+            </button>
+          </a>
         </div>
       </div>
     </div>

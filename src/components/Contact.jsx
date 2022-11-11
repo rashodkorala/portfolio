@@ -9,6 +9,7 @@ const Contact = () => {
           action="https://getform.io/f/b61520b6-64ed-4215-8bae-b9969500dd78"
           method="POST"
           className="flex flex-col max-w-[600px] w-full p-8 bg-bg"
+          autoComplete="off" 
         >
           <div className="text-md">
             <input
