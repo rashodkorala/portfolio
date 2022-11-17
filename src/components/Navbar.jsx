@@ -73,16 +73,19 @@ const Navbar = () => {
             HOME
           </Link>
         </li>
+
         <li className="py-6 text-4fxl">
           <Link onClick={HandleClick} to="About" smooth={true} duration={500}>
             ABOUT
           </Link>
         </li>
+
         <li className="py-6 text-4fxl">
           <Link onClick={HandleClick} to="Skills" smooth={true} duration={500}>
             SKILLS
           </Link>
         </li>
+
         <li className="py-6 text-4fxl">
           <Link
             onClick={HandleClick}
@@ -94,11 +97,13 @@ const Navbar = () => {
             WORK
           </Link>
         </li>
+
         <li className="py-6 text-4fxl">
           <Link onClick={HandleClick} to="Contact" smooth={true} duration={500}>
             CONTACT
           </Link>
         </li>
+        
         {/*social icons */}
         <div>
           <ul className="flex">
@@ -130,7 +135,6 @@ const Navbar = () => {
           </ul>
         </div>
       </ul>
-      {/*social icons*/}
     </div>
   );
 };
