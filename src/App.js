@@ -7,7 +7,7 @@ import Work from "./components/Work";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="snap-x snap-proxmity">
+    <div className="snap-x snap-mandatory">
       <NavBar />
       <Home />
       <About />
