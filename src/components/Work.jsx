@@ -1,7 +1,7 @@
 import React from "react";
-import Squeekleen from "../assets/Projects/SqueeKleen.png";
-import KingDomino from "../assets/Projects/KingDomino.png";
-import MyPortfolio from "../assets/Projects/MyPortfolio.png";
+import Squeekleen from "../assets/ProjectsPhotos/SqueeKleen.png";
+import KingDomino from "../assets/ProjectsPhotos/KingDomino.png";
+import MyPortfolio from "../assets/ProjectsPhotos/MyPortfolio.png";
 
 const Work = () => {
   return (
