@@ -6,18 +6,18 @@ export const Home = () => {
     <div name="Home" className="w-full h-screen bg-bg snap-center">
       {/*container*/}
       <div class="max-w-[1000px] mx-auto px-4 flex flex-col justify-center h-full text-white xsm:px-5">
-        <p className="text-cyan-300 text-2xl xsm:text-3xl sm:text-4xl md:text-5xl xl:text-7xl">
+        <p className="text-white text-2xl xsm:text-5xl sm:text-4xl md:text-5xl xl:text-7xl">
           Hi , I'm{" "}
         </p>
-        <h1 className="text-blue-300 font-bold text-4xl xsm:text-5xl sm:text-6xl md:text-7xl xl:text-8xl">
+        <h1 className="text-white font-bold text-5xl xsm:text-5xl sm:text-6xl md:text-7xl xl:text-8xl">
           RASHOD
         </h1>
-        <p className="text-green-500 text-md xsm:text-xl sm:text-2xl md:text-3xl xl:text-3xl">
+        <p className="text-white text-lg xsm:text-xl sm:text-2xl md:text-3xl xl:text-3xl">
           DEVELEOPER | PHOTOGRAPHER | CREATOR
         </p>
         <div>
           <Link
-            className="flex items-center text-yellow-600 cursor-pointer text-md xsm:text-xl sm:text-2xl md:text-3xl xl:text-3xl"
+            className="flex items-center text-yellow-600 cursor-pointer text-lg xsm:text-xl sm:text-2xl md:text-3xl xl:text-3xl"
             to="Work"
             smooth={true}
             offset={-100}
@@ -32,3 +32,7 @@ export const Home = () => {
 };
 
 export default Home;
+// text-cyan-300
+// text-blue-300
+// text-green-500
+// text-yellow-600
