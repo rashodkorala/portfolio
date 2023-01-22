@@ -7,7 +7,7 @@ export const About = () => {
         <h1 className="font-bold text-4xl xsm:text-5xl sm:text-6xl">
           Me, Myself & I
         </h1>
-        <div className="flex md:flex-col md:grid md:grid-cols-1 ">
+        <div className="flex flex-col md:grid md:grid-cols-1 ">
           <p className="py-4 text-md xsm:text-xl xl:text-2xl ">
             I am a third year student at the Memorial University of Newfoundland
             studying Computer Science. I am a self-taught developer and designer
