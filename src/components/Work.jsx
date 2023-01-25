@@ -32,7 +32,7 @@ const Work = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500">
+                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500 hover:scale-110 transition-all duration-1000 ease-in-out">
                   View Project
                 </button>
               </a>
@@ -49,7 +49,7 @@ const Work = () => {
             </p>
             <div className="flex justify-center">
               <a href="/" target="_blank" rel="noreferrer">
-                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500">
+                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500 hover:scale-110 transition-all duration-1000 ease-in-out">
                   View Project
                 </button>
               </a>
@@ -59,7 +59,7 @@ const Work = () => {
             <div>
               <img className="" src={MyPortfolio} alt="RashodKorala" />
             </div>
-            <h3 className="text-2xl">My PortFolio</h3>
+            <h3 className="text-2xl text-center font-bold">My PortFolio</h3>
             <p className="text-white text-md py-3 text-center">
               This is my portfolio website. Built with React and TailwindCSS to
               showcase my skills and projects.
@@ -76,15 +76,18 @@ const Work = () => {
             <div>
               <img className="" src={ArtistPortfolio} alt="BanduManamperi" />
             </div>
-            <h3 className="text-2xl">Artist PortFolio</h3>
+            <h3 className="text-2xl text-center font-bold">Artist PortFolio</h3>
             <p className="text-white text-md py-3 text-center">
               This is a website for a local artist. Built with NextJs and
-              TailwindCSS to showcase his work. 
-
+              TailwindCSS to showcase his work.
             </p>
             <div className="flex justify-center">
-              <a href="https://dev.bandumanamperi.com" target="_blank" rel="noreferrer">
-                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500">
+              <a
+                href="https://dev.bandumanamperi.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500 hover:scale-110 transition-all duration-1000 ease-in-out">
                   View Project
                 </button>
               </a>
