@@ -50,7 +50,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="Contact" smooth={true} duration={1000}>
+            <Link to="Contact" smooth={true} duration={1000} offset={120}>
               CONTACT
             </Link>
           </li>
@@ -103,32 +103,27 @@ const Navbar = () => {
             CONTACT
           </Link>
         </li>
-        
+
         {/*social icons */}
         <div>
           <ul className="flex">
             <li>
-              <a href="/">
-                <FaFacebook size={30} />
-              </a>{" "}
-            </li>
-            <li>
-              <a href="/">
+              <a href="https://www.instagram.com/rashodk_/">
                 <FaInstagram size={30} />
               </a>{" "}
             </li>
             <li>
-              <a href="/">
+              <a href="https://github.com/rashodkorala">
                 <FaGithub size={30} />
               </a>{" "}
             </li>
             <li>
-              <a href="/">
+              <a href="https://twitter.com/rashodkorala">
                 <FaTwitter size={30} />
               </a>{" "}
             </li>
             <li>
-              <a href="/">
+              <a href="mailto:rashodkorala2002@gmail.com">
                 <HiOutlineMail size={30} />
               </a>{" "}
             </li>

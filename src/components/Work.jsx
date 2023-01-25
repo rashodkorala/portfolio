@@ -2,7 +2,7 @@ import React from "react";
 import Squeekleen from "../assets/ProjectsPhotos/SqueeKleen.png";
 import KingDomino from "../assets/ProjectsPhotos/KingDomino.png";
 import MyPortfolio from "../assets/ProjectsPhotos/MyPortfolio.png";
-
+import ArtistPortfolio from "../assets/ProjectsPhotos/ArtistPortfolio.png";
 const Work = () => {
   return (
     <div id="Work" className=" snap-start w-full bg-bg">
@@ -14,10 +14,14 @@ const Work = () => {
           WORK
         </h1>
         <h2 className="text-3xl py-3 px-2">PROJECTS</h2>
-        <div>
+        <div className="md:grid grid-cols-2 ">
           <div className="py-3 px-3" name="Squeekleen">
-            <h3 className="text-2xl">SqueeKleen Inc.</h3>
-            <img className="" src={Squeekleen} alt="Squeekleen" />
+            <div>
+              <img className="w-[100%]" src={Squeekleen} alt="Squeekleen" />
+            </div>
+            <h3 className="text-2xl text-center pt-2 font-bold">
+              SqueeKleen Inc.
+            </h3>
             <p className="text-white text-md py-3 text-center">
               Simple website for a local cleaning company. Built Using Html and
               pure CSS.
@@ -28,30 +32,34 @@ const Work = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500">
+                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500 hover:scale-110 transition-all duration-1000 ease-in-out">
                   View Project
                 </button>
               </a>
             </div>
           </div>
           <div className="py-3 px-3" name="KingDomino">
-            <h3 className="text-2xl">KingDomino</h3>
-            <img className="" src={KingDomino} alt="KingDomino" />
-            <p className="text-white text-md py-3 text-center">
+            <div className="flex justify-center items-center">
+              <img className="w-[80%]" src={KingDomino} alt="KingDomino" />
+            </div>
+            <h3 className="text-2xl text-center pt-3 font-bold">KingDomino</h3>
+            <p className="text-white text-md py-2 text-center">
               Acadamic project for a board game called KingDomino. Built with
               Jav Swing. This project was a group project with 3 other students.
             </p>
             <div className="flex justify-center">
               <a href="/" target="_blank" rel="noreferrer">
-                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500">
+                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500 hover:scale-110 transition-all duration-1000 ease-in-out">
                   View Project
                 </button>
               </a>
             </div>
           </div>
           <div className="py-3 px-3" name="MyPortFolio">
-            <h3 className="text-2xl">My PortFolio</h3>
-            <img className="" src={MyPortfolio} alt="RashodKorala" />
+            <div>
+              <img className="" src={MyPortfolio} alt="RashodKorala" />
+            </div>
+            <h3 className="text-2xl text-center font-bold">My PortFolio</h3>
             <p className="text-white text-md py-3 text-center">
               This is my portfolio website. Built with React and TailwindCSS to
               showcase my skills and projects.
@@ -62,6 +70,27 @@ const Work = () => {
                   View Project
                 </button>
               </a> */}
+            </div>
+          </div>
+          <div className="py-3 px-3" name="ArtistPortFolio">
+            <div>
+              <img className="" src={ArtistPortfolio} alt="BanduManamperi" />
+            </div>
+            <h3 className="text-2xl text-center font-bold">Artist PortFolio</h3>
+            <p className="text-white text-md py-3 text-center">
+              This is a website for a local artist. Built with NextJs and
+              TailwindCSS to showcase his work.
+            </p>
+            <div className="flex justify-center">
+              <a
+                href="https://dev.bandumanamperi.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500 hover:scale-110 transition-all duration-1000 ease-in-out">
+                  View Project
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ export const Home = () => {
           </Link> */}
 
           <Link to="Work" smooth={true} offset={-100} duration={500}>
-            <button className=" flex justify-center items-center bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500 my-4 ">
+            <button className=" flex justify-center items-center bg-black text-white px-4 py-2 rounded-3xl ring-2 ring-blue-500 my-4 hover:scale-110 transition-all duration-1000 ease-in-out ">
               View Work
               <HiArrowNarrowRight className="ml-1" />
             </button>
