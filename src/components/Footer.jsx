@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div
       name="Footer"
-      className="flex flex-col w-full h-[120px] bg-[#161414] text-[#AAAACCAA] justify-center items-center text-[12px] border-t-1 border-[#c0c0c0ca]"
+      className="flex flex-col w-full h-[120px]  text-[#AAAACCAA] justify-center items-center text-[12px] "
     >
       <div className="py-3">
         <ul className="flex ">
